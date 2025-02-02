@@ -1,4 +1,7 @@
 package entity.creature.animal.preditor;
 
-public class Boa {
+public class Boa extends Predator{
+    public Boa() {
+        super(15, 30, 1, 3);
+    }
 }

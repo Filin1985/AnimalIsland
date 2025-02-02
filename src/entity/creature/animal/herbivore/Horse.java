@@ -1,7 +1,7 @@
 package entity.creature.animal.herbivore;
 
 public class Horse extends Herbivore{
-    protected Horse(double weight, int maxNumberOnLocation, int speed, double maxNumberSaturation) {
+    public Horse() {
         super(400, 20, 4, 60);
     }
 

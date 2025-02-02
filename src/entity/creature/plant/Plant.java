@@ -3,7 +3,7 @@ package entity.creature.plant;
 import entity.creature.animal.Creature;
 
 public class Plant extends Creature {
-    protected Plant() {
+    public Plant() {
         super(1, 200);
     }
 

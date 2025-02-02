@@ -14,4 +14,12 @@ public abstract class Animal extends Creature {
     public abstract void reproduce();
 
     public abstract void eat();
+
+    public int getSpeed() {
+        return speed;
+    }
+
+    public double getMaxCountSaturation() {
+        return maxCountSaturation;
+    }
 }

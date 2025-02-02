@@ -1,4 +1,7 @@
 package entity.creature.animal.preditor;
 
-public class Bear {
+public class Bear extends Predator{
+    public Bear() {
+        super(500, 5, 2, 80);
+    }
 }
